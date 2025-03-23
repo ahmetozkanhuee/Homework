@@ -1,1 +1,27 @@
 
+#include <stdio.h>
+#include <math.h>
+
+void computeHomeValue()
+{
+    int popneighborhood; 
+    int size;             
+    int HomeValue;     
+
+    printf("What is the population of your neighborhood? ");
+    scanf("%d", &neighborhood_pop); 
+
+    printf("What is the size of the house?");
+    scanf("%d", &size);            
+
+    HomeValue= ((pow(popneighborhood, 3))+(pow(size, 2)))*10000; /*Calculates the minimum value of the house*/
+
+    printf("The value of the house is %d TL", HomeValue); 
+}
+
+int main()
+{
+
+    computeHomeValue();
+    return 0;
+}
