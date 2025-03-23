@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+
+/* function main begins program execution */
+int main( void )
+{
+    int integer1  semicolon (;) //is missing in the line
+    int integer2  semicolon (;) //is missing in the line
+    int x;      /* variable in which sum will be stored */
+
+    printf( Enter first integer\n ); //string must be between" ".
+    scanf( "%d", &integer1 );
+
+    printf( "Enter second integer\n" );
+    scanf( "%d", &integer2 );
+
+    sum = integer1 + integer2; //sum is not defined in the function it can be changed with x.
+
+    printf( "Sum is %d\n", sum ); //sum is not defined in the function it can be changed with x.
+    return 0;
+
+} 
+
+
+/* function main begins program execution */
